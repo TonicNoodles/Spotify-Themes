@@ -18,9 +18,11 @@ A list of my Spotify Themes
 
 # FAQ
 Q: I have a giant box on my screen with a bunch of text on it, how do I get rid of it?
+
 A: F12
 
 Q: Where can I turn on the theme?
+
 A: It's under settings where your avatar / account is. It's called ES Themes.
 
 # Preview of the Zed one
