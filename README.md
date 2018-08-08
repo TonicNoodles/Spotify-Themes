@@ -16,7 +16,7 @@ A list of my Spotify Themes
 <img src="https://imgur.com/daCcGb7.jpg">
 8) Save the file and reload if needed. 
 
-#FAQ
+# FAQ
 Q: I have a giant box on my screen with a bunch of text on it, how do I get rid of it?
 A: F12
 
