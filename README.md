@@ -27,4 +27,4 @@ A: It's under settings where your avatar / account is. It's called ES Themes.
 
 # Preview of the Zed one
 
-<img src="https://imgur.com/Fjvn3cY.jpg">
+<img src="https://cdn.discordapp.com/attachments/415949215043289089/476707663624011796/unknown.png">
