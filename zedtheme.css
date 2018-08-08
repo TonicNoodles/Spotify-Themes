@@ -1,0 +1,369 @@
+/*themeinfo : {
+	"name" : "Zed Theme",
+	"description" : "Testing",
+	"creator" : "TonicNoodles",
+	"version" : "0.0.1"
+}*/
+
+/* Main/Misc */
+
+#app-background {
+	background: url(https://cdn.discordapp.com/attachments/464721298866831372/476124767099813892/Zed.jpg);
+	background-size: cover;
+	filter: brightness(.6);
+}
+
+.container, .content, body, .sidebar, [dir] .glue-page-header__background-color, [dir] .glue-page-header__background-overlay, [dir] .buddy-card, [dir] .section-divider-sticky-wrapper .section-divider, [dir] .header, [dir] .sticky-clone .tl-header, [dir] .HomeHeader__hpto-top-bar, [dir] .header, [dir] .sticky-clone .tl-header, [dir] .header, [dir] .sticky-clone .tl-header, [dir] .header, [dir] .sticky-clone .tl-header, [dir] body, [dir] .dnd-image-shelter, [dir] .divider .divider-title, [dir] .popover-content-scroll-area, [dir] .popover.modal, [dir] .modal-generic, [dir] .h-search-field-wrapper.sticky-top, [dir] .h-sticky-header .h-sticky-header-inner, [dir] .billboard-ad.minimized .footer, [dir] .GlueTable__sticky-header, [dir] #view-content, [dir] #view-content > .embedded-app, [dir] #view-content > iframe, [dir] #view-leaderboard-ad, [dir] body, [dir] .dnd-image-shelter, [dir] .divider .divider-title, [dir] .popover-content-scroll-area, [dir] .popover.modal, [dir] .modal-generic, [dir] .h-search-field-wrapper.sticky-top, [dir] .h-sticky-header .h-sticky-header-inner, [dir] body, [dir] .scrollbar-style-visible-mac ::-webkit-scrollbar-track, [dir] .dnd-image-shelter, [dir] .divider .divider-title, [dir] .popover-content-scroll-area, [dir] .popover.modal, [dir] .modal-generic, [dir] .h-search-field-wrapper.sticky-top, [dir] .h-sticky-header .h-sticky-header-inner, [dir] body, [dir] .dnd-image-shelter, [dir] .divider .divider-title, [dir] .popover-content-scroll-area, [dir] .popover.modal, [dir] .modal-generic, [dir] .h-search-field-wrapper.sticky-top, [dir] .h-sticky-header .h-sticky-header-inner {
+	background: transparent!important;
+	background-color: transparent !important;
+}
+
+[dir] .GlueHeader--with-active-sticky-header .GlueHeader__background:after {
+	width: 0;
+}
+
+[dir] .view-player .remote-playback-bar {
+	background-color: rgb(255,31,31);
+}
+
+[dir] .button.button-green, [dir] .button.button-large.button-green, [dir] .button.button-small.button-green, [dir] .list-group-item.list-group-item-media.active::before, [dir] .slider.enabled, [dir] .GlueToggle--is-active .GlueToggle__toggle, [dir] .GlueButton--style-green, [dir] .Rootlist__drop-indicator, [dir] .view-player .extra-controls-container .volumebar-container .progress-bar-wrapper.active .inner, [dir] .view-player .extra-controls-container .volumebar-container .progress-bar-wrapper:hover .inner, [dir] .button.button-green, [dir] .button.button-large.button-green, [dir] .button.button-small.button-green, [dir] .list-group-item.list-group-item-media.active::before, [dir] .slider.enabled, [dir] .button.button-green, [dir] .button.button-large.button-green, [dir] .button.button-small.button-green, [dir] .list-group-item.list-group-item-media.active::before, [dir] .slider.enabled, [dir] .button.button-green, [dir] .button.button-large.button-green, [dir] .button.button-small.button-green, [dir] .list-group-item.list-group-item-media.active::before, [dir] .slider.enabled, [dir] .button.button-green, [dir] .button.button-large.button-green, [dir] .button.button-small.button-green, [dir] .list-group-item.list-group-item-media.active::before, [dir] .slider.enabled, .selected, [dir] .button.button-green, [dir] .button.button-large.button-green, [dir] .button.button-small.button-green, [dir] .list-group-item.list-group-item-media.active::before, [dir] .slider.enabled {
+	background: rgba(255,31,31);
+}
+
+[dir] a.list-group-item.active, [dir] .nav > li.active > a::after, [dir] .popover-nav .nav > li.active > a::after, [dir] .alert-success, [dir] .label-success, [dir] .sidebar #offline-global-progress p, [dir] .ConnectDevicePicker__button--with-badge.active::after, [dir] .view-player .remote-playback-bar, [dir] .view-player .player-controls-container .button-repeat.active::after, [dir] .view-player .player-controls-container .button-shuffle.active::after, [dir] .view-player .player-controls-container .progress-container.progress-bar-enabled.dragging-progress-bar .progress-bar .inner, [dir] .view-player .player-controls-container .progress-container.progress-bar-enabled:hover .progress-bar .inner, [dir] a.list-group-item.active, [dir] .nav > li.active > a::after, [dir] .popover-nav .nav > li.active > a::after, [dir] .alert-success, [dir] .label-success, [dir] a.list-group-item.active, [dir] .nav > li.active > a::after, [dir] .popover-nav .nav > li.active > a::after, [dir] .alert-success, [dir] .label-success, [dir] a.list-group-item.active, [dir] .nav > li.active > a::after, [dir] .popover-nav .nav > li.active > a::after, [dir] .alert-success, [dir] .label-success, [dir] a.list-group-item.active, [dir] .nav > li.active > a::after, [dir] .popover-nav .nav > li.active > a::after, [dir] .alert-success, [dir] .label-success, [dir] a.list-group-item.active, [dir] .nav > li.active > a::after, [dir] .popover-nav .nav > li.active > a::after, [dir] .alert-success, [dir] .label-success {
+	background-color: rgba(255,31,31);
+}
+
+[dir] .added .button-add.just-changed, [dir] .added .button-add.stay-added, [dir] .button-add.added.just-changed, [dir] .button-add.added.stay-added, [dir] a.list-group-item.active, [dir] .nav > li.active > a::after, [dir] .popover-nav .nav > li.active > a::after, [dir] .alert-success, [dir] .label-success, .card.playing .card-info-title, .card.paused .card-info-title, .playing .card .card-info-title, .paused .card .card-info-title, .card.playing .card-info-title a, .card.paused .card-info-title a, .playing .card .card-info-title a, .paused .card .card-info-title a, .tl-sort-asc::after, .tl-sort-desc::after, .GlueButton--style-stroke.GlueButton--is-active, .GlueButton--style-icon-stroke.GlueButton--is-active, .GlueButton--style-icon-background.GlueButton--is-active, .GlueButton--style-icon:not(.GlueButton--is-drop-target-active).GlueButton--is-active, .GlueButton--style-only-text.GlueButton--is-active, .GlueMenuItem--is-active, .GlueTableCellArtists--track-is-playing, .GlueTableCellArtists--track-is-playing .GlueTableCellArtists__artist, .GlueTableCellDuration--track-is-playing, .GlueTableCellSong--track-is-playing .GlueTableCellSong__featuredArtist, .GlueTableCellSong--track-is-playing .GlueTableCellSong__text-truncator, .GlueTableCellSong--track-is-playing .GlueTableCellSong__track-name, .OfflineIndicator--is-downloaded, [dir] .sidebar #offline-global-progress p, [dir] .ConnectDevicePicker__button--with-badge.active::after, .ConnectPopup__device--active, .ConnectPopup__device--active .ConnectPopup__device-info, .ConnectPopup__device--active .ConnectPopup__device-title, [dir] .view-player .remote-playback-bar, [dir] .view-player .player-controls-container .button-repeat.active::after, [dir] .view-player .player-controls-container .button-shuffle.active::after, [dir] .view-player .player-controls-container .progress-container.progress-bar-enabled.dragging-progress-bar .progress-bar .inner, [dir] .view-player .player-controls-container .progress-container.progress-bar-enabled:hover .progress-bar .inner, .view-player .extra-controls-container .subtitles-picker .dropdown-menu .list-group-item.selected, .view-player .extra-controls-container .subtitles-picker .dropdown-menu .list-group-item.selected .selected-icon, .es-console .scroller.console, .es-selected, [dir] .added .button-add.just-changed, [dir] .added .button-add.stay-added, [dir] .button-add.added.just-changed, [dir] .button-add.added.stay-added, [dir] a.list-group-item.active, [dir] .nav > li.active > a::after, [dir] .popover-nav .nav > li.active > a::after, [dir] .alert-success, [dir] .label-success, .card.playing .card-info-title, .card.paused .card-info-title, .playing .card .card-info-title, .paused .card .card-info-title, .card.playing .card-info-title a, .card.paused .card-info-title a, .playing .card .card-info-title a, .paused .card .card-info-title a, .tl-sort-asc::after, .tl-sort-desc::after, .es-console .scroller.console, .es-selected, [dir] .added .button-add.just-changed, [dir] .added .button-add.stay-added, [dir] .button-add.added.just-changed, [dir] .button-add.added.stay-added, [dir] a.list-group-item.active, [dir] .nav > li.active > a::after, [dir] .popover-nav .nav > li.active > a::after, [dir] .alert-success, [dir] .label-success, .card.playing .card-info-title, .card.paused .card-info-title, .playing .card .card-info-title, .paused .card .card-info-title, .card.playing .card-info-title a, .card.paused .card-info-title a, .playing .card .card-info-title a, .paused .card .card-info-title a, .tl-sort-asc::after, .tl-sort-desc::after, .es-console .scroller.console, .es-selected, [dir] .added .button-add.just-changed, [dir] .added .button-add.stay-added, [dir] .button-add.added.just-changed, [dir] .button-add.added.stay-added, [dir] a.list-group-item.active, [dir] .nav > li.active > a::after, [dir] .popover-nav .nav > li.active > a::after, [dir] .alert-success, [dir] .label-success, .card.playing .card-info-title, .card.paused .card-info-title, .playing .card .card-info-title, .paused .card .card-info-title, .card.playing .card-info-title a, .card.paused .card-info-title a, .playing .card .card-info-title a, .paused .card .card-info-title a, .tl-sort-asc::after, .tl-sort-desc::after, .es-console .scroller.console, .es-selected, [dir] .added .button-add.just-changed, [dir] .added .button-add.stay-added, [dir] .button-add.added.just-changed, [dir] .button-add.added.stay-added, [dir] a.list-group-item.active, [dir] .nav > li.active > a::after, [dir] .popover-nav .nav > li.active > a::after, [dir] .alert-success, [dir] .label-success, .card.playing .card-info-title, .card.paused .card-info-title, .playing .card .card-info-title, .paused .card .card-info-title, .card.playing .card-info-title a, .card.paused .card-info-title a, .playing .card .card-info-title a, .paused .card .card-info-title a, .tl-sort-asc::after, .tl-sort-desc::after, .es-console .scroller.console, .es-selected, [dir] .added .button-add.just-changed, [dir] .added .button-add.stay-added, [dir] .button-add.added.just-changed, [dir] .button-add.added.stay-added, [dir] a.list-group-item.active, [dir] .nav > li.active > a::after, [dir] .popover-nav .nav > li.active > a::after, [dir] .alert-success, [dir] .label-success, .card.playing .card-info-title, .card.paused .card-info-title, .playing .card .card-info-title, .paused .card .card-info-title, .card.playing .card-info-title a, .card.paused .card-info-title a, .playing .card .card-info-title a, .paused .card .card-info-title a, .tl-sort-asc::after, .tl-sort-desc::after, .es-console .scroller.console, .es-selected, .view-player .player-controls-container .controls .button-thumbs-down, .view-player .player-controls-container .controls .button-thumbs-up, .view-player .player-controls-container .controls .button-repeat.active, .view-player .player-controls-container .controls .button-shuffle.active, .view-player .player-controls-container .controls .button-thumbs-down.active, .view-player .player-controls-container .controls .button-thumbs-up.active, .view-player .extra-controls-container .button-devices.active, .view-player .extra-controls-container .button-lyrics.active, .view-player .extra-controls-container .button-queue.active, .view-player .extra-controls-container .button-subtitles.active {
+	color: rgba(255,31,31,1);
+}
+
+[dir] .view-player .remote-playback-bar .arrow {
+	border-bottom-color: rgb(255,31,31);
+}
+
+[dir] .error-and-offline {
+	background-image: transparent;
+}
+
+[dir] #view-buddy-list, [dir] .buddy-list-top-bar-dragger, [dir] body, html[dir], [dir] iframe, [dir] #loading {
+	background: transparent;
+}
+
+[dir] #view-buddy-list, #view-navigation-bar {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), transparent 90%);
+}
+
+.sidebar-top-items {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+[dir] .profile .avatar, [dir] .friend .user-play-button .card-image, [dir] .friend .user-play-button .card-image-hit-area, [dir] .friend .user-play-button .card-overlay, [dir] .friend .user-play-button .card-placeholder-wrapper {
+	border-radius: 5px;
+	background-color: transparent;
+}
+
+/* Player At Bottom */
+
+.view-player .player-bar-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	background:rgba(0,0,0,.3);
+}
+
+.progress-bar, .progress-bar .inner {
+	height: 4px;
+	position: absolute;
+	top: 50%;
+}
+
+[dir] .progress-bar, [dir] .progress-bar .inner {
+	background: rgb(60, 60, 60);
+	border-radius: 2px;
+	margin-top: -2px;
+}
+.progress-bar .inner {
+	bottom: 0px;
+	height: inherit;
+	position: absolute;
+}
+
+[dir] .progress-bar .inner {
+	background: rgb(255, 31, 31);	
+}
+.progress-bar-wrapper--ltr .progress-bar, .progress-bar-wrapper--ltr .progress-bar .inner {
+	left: 0px;
+	right: 0px;
+}
+.progress-bar-wrapper--ltr .progress-bar .inner {
+	left: 0px;
+	right: auto;
+}
+[dir] .view-player .player-controls-container .progress-container .progress-bar .inner {
+	background-color: rgb(255, 31, 31);
+}
+[dir] .view-player .player-controls-container .progress-container.progress-bar-enabled.dragging-progress-bar .progress-bar .inner, [dir] .view-player .player-controls-container .progress-container.progress-bar-enabled:hover .progress-bar .inner {
+	background-color: rgb(255, 31, 31);
+}
+
+style {
+	right: 9.83781%;
+	left: 0px;
+}
+
+.progress-bar .handle {
+	display: block;
+	height: 12px;
+	opacity: 0;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+}
+[dir] .progress-bar .handle {
+	background: rgb(20, 20, 20);
+	border-radius: 50%;
+	border: 3px solid rgb(255, 31, 31);
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 3px;
+}
+
+[dir] .view-player .extra-controls-container .volumebar-container .progress-bar .inner {
+	background: rgb(255, 31, 31);
+}
+
+.view-player .player-controls-container .controls .button-repeat:hover, .view-player .player-controls-container .controls .button-shuffle:hover {
+	color: rgba(255,31,31,.7)!important;
+}
+
+.selected .button.button-icon-only {
+	color: rgb(255,31,31);
+}
+
+.view-player .player-controls-container .controls .button-repeat, .view-player .player-controls-container .controls .button-shuffle {
+	color: rgba(255,255,255,.7);
+}
+
+.view-player .extra-controls-container .button-devices.active.contextmenu-active, .view-player .extra-controls-container .button-devices.active:not(:disabled):hover, .view-player .extra-controls-container .button-lyrics.active.contextmenu-active, .view-player .extra-controls-container .button-lyrics.active:not(:disabled):hover, .view-player .extra-controls-container .button-queue.active.contextmenu-active, .view-player .extra-controls-container .button-queue.active:not(:disabled):hover, .view-player .extra-controls-container .button-subtitles.active.contextmenu-active, .view-player .extra-controls-container .button-subtitles.active:not(:disabled):hover {
+	color: rgba(255, 255, 255, .7);
+}
+
+.view-player {
+	color: rgb(255, 255, 255);
+	height: 88px;
+}
+[dir] .view-player {
+	background: rgba(40, 40, 40, .5);
+	border-top: 1px solid rgba(255, 31, 31, .5);
+}
+
+/* SIDE BAR ON LEFT */
+
+[dir] .sidebar {
+	background-color: rgba(10, 10, 10, .5)!important;
+}
+
+.LeftSidebarNewPlaylistButton__button:focus, .LeftSidebarNewPlaylistButton__button:hover {
+	color: rgba(255, 31, 31, .7);
+}
+
+.LeftSidebarNewPlaylistButton__button {
+	color: rgb(255, 31, 31);
+}
+
+.SidebarList__title {
+color: rgb(255, 0, 0);
+font-size: 11px;
+font-weight: 200;
+letter-spacing: 0.16em;
+line-height: 16px;
+text-transform: uppercase;
+}
+
+a {
+color: rgb(255, 10, 10)!important;
+text-decoration: none;
+}
+
+a:hover, a:focus {
+color: rgb(255, 31, 31, .7)!important;
+text-decoration: none;
+}
+
+[dir] .sticky-clone .tl-header, [dir] .GlueHeader__background-color {
+	background: transparent !important;
+}
+
+/* PLAYLIST */
+
+.tl-header th, .tl-cell {
+	background:rgba(20,20,20, .5)!important;
+	position: relative;
+}
+
+.tl-header th:hover, .tl-cell:hover {
+	background:rgba(10,10,10, .5)!important;
+	position: relative;
+}
+
+.tl-row.selected .tl-cell {
+	background: rgba(0, 0, 0, .6)!important;
+	border-color: rgb(24, 24, 24);
+}
+
+.tl-name__title {
+	color:rgb(255,31,31);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.tl-row.current .tl-cell:not(.tl-number), .tl-row.current .tl-cell a:link, .tl-row.current .tl-highlight {
+	color: rgb(255, 31, 31);
+}
+
+.tl-date-added {
+	color: rgb(255, 31, 31);
+	width: 110px;
+}
+
+.tl-time {
+	color: rgb(255, 31, 31);
+	width: 70px;
+}
+
+.button:hover .b-play-text, .button:hover .b-pause-text, .button:hover .b-add-text, .button:hover .b-added-text, .button:hover .b-remove-text {
+	background:rgb(255,31,31);
+	transition: none 33ms cubic-bezier(0.3, 0, 0, 1);
+}
+
+.b-play-text, .b-pause-text, .b-add-text, .b-added-text, .b-remove-text {
+	background:rgb(255,31,31);
+	transition: none 33ms cubic-bezier(0.3, 0, 0.7, 1);
+}
+
+.button-play.playing .b-play-text {
+	background:rgb (255,31,31);
+	opacity: 0;
+}
+
+[dir] .button.button-green:not(:disabled):hover {
+	color:rgb(255,255,255);
+	background-color:rgb(255,31,31);
+	transform: scale(1.0625);
+}
+
+[dir] .focus .h-search, [dir] .h-search:focus {
+background: rgba(20, 20, 20, .7)!important;
+}
+
+.h-search {
+background: rgba(20, 20, 20, .5)!important;
+border: 0px;
+border-radius: 3px;
+padding-bottom: 0px;
+}
+
+.CardList__list:hover {
+	list-style: none;
+}
+
+[dir="ltr"] .card a .card-hit-area-counter-scale:hover, [dir="ltr"] .card a .card-hit-area-counter-scale-left:hover, [dir="ltr"] .card a .card-hit-area-counter-scale-right:hover {
+	background: rgba(10, 10, 10, .1)!important;
+	left: 0px;
+	right: 0px;
+}
+
+[dir] .CardList__list, [dir] .Carousel__inner {
+	background: rgba(10, 10, 10, .1)!important;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* SCROLLBARS */
+
+[dir] .scrollbar-style-visible-mac ::-webkit-scrollbar-track, [dir] .scrollbar-style-visible-mac::-webkit-scrollbar-track, [dir] .scrollbar-style-visible-windows ::-webkit-scrollbar-track, [dir] .scrollbar-style-visible-windows::-webkit-scrollbar-track, [dir] .scrollbar-style-visible-linux ::-webkit-scrollbar-track, [dir] .scrollbar-style-visible-linux::-webkit-scrollbar-track, [dir] .scrollbar-style-visible-windows::-webkit-scrollbar-button, [dir] .scrollbar-style-visible-windows ::-webkit-scrollbar-button, [dir] .scrollbar-style-visible-linux::-webkit-scrollbar-button, [dir] .scrollbar-style-visible-linux ::-webkit-scrollbar-button {
+	background: transparent;
+}
+
+::-webkit-scrollbar {
+	max-width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(20, 20, 20, 0.3) !important;
+}
+
+[class*=playlist]::-webkit-scrollbar-track {
+	background: rgba(20, 20, 20, 0.7) !important;
+}
+
+::-webkit-scrollbar-button {
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(255,31,31, .7) !important;
+}
+
+
+/*  MENUS */
+
+[dir] .context-menu, #GluePopoverMenu-container .GlueMenu {
+	background: rgb(20,20,20);
+}
+
+[dir] .context-menu::before, #GluePopoverMenu-container .GlueMenu::before {
+	content: "";
+	background: rgb(20,20,20);
+}
+
+.context-menu .item, .GlueMenuItem {
+	background: transparent !important;
+	color: white !important;
+	opacity: 0.6;
+}
+
+.context-menu .item:hover, .GlueMenuItem:hover {
+	background: rgb(20,20,20) !important;
+	opacity: 1;
+}
+
+[dir] .tooltip, [dir] #tooltip {
+	background-color: rgb(20,20,20);
+	color: black;
+}
+
+[dir] .tooltip-arrow-top, [dir] .tooltip-arrow-bottom {
+	border-bottom-color: rgb(20,20,20);
+}
+
+
+/* FRIEND STUFF */
+
+.EmptyFriendFeed__cta {
+	background:transparent;
+	align-items: center;1
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 220px;
+}
+[dir] .EmptyFriendFeed__cta {
+	background:transparent;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 24px;
+	text-align: center;
+}
+[dir] .EmptyFriendFeed__cta--bg-2 {
+	background:transparent!important;
+}
+
+.EmptyFriendFeed__placeholder {
+	min-height: 958px;
+}
+[dir] .EmptyFriendFeed__placeholder {
+	background:transparent!important;
+}
