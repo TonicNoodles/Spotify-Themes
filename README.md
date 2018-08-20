@@ -4,11 +4,11 @@ A list of my Spotify Themes
 
 # How to Install
 1) Download the zedThemeDone.css
-2) Go to wherever you downloaded Enhanced Spotify to.
-  Default for me: C:\Users\PUTUSERNAMEHERE\AppData\Roaming\Spotify\Apps\zlink\enhancedspotify\themes
+2) Go to wherever you downloaded Motify to.
+  Default for me: C:\Users\PUTUSERNAMEHERE\AppData\Roaming\Spotify\Apps\zlink\motify\themes
 3) Put the theme in that folder.
 4) Then go to addons.json
-  Default for me: C:\Users\PUTUSERNAMEHERE\AppData\Roaming\Spotify\Apps\zlink\enhancedspotify
+  Default for me: C:\Users\PUTUSERNAMEHERE\AppData\Roaming\Spotify\Apps\zlink\motify
 5) Open addons.json with text editor
 6) Put this under themes:
   "zedThemeDone.css",
