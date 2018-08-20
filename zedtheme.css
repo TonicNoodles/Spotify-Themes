@@ -65,12 +65,18 @@
 
 /* Player At Bottom */
 
+.view-player .nowplaying-add-button.added, .view-player .nowplaying-add-button.added.just-changed, .view-player .nowplaying-ban-button.added, .view-player .nowplaying-ban-button.added.just-changed, .view-player .nowplaying-heart-button.added, .view-player .nowplaying-heart-button.added.just-changed { color: rgb(255,31,31); }
+
 .view-player .player-bar-wrapper {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	height: 100%;
 	background:rgba(0,0,0,.3);
+}
+
+[dir=ltr] .view-player .text-container .text-item-container .text-item .scroll-text-container:after, [dir=rtl] .view-player .text-container .text-item-container .text-item .scroll-text-container:before {
+	background: transparent; 
 }
 
 .progress-bar, .progress-bar .inner {
@@ -157,6 +163,8 @@ style {
 	border-top: 1px solid rgba(255, 31, 31, .5);
 }
 
+
+
 /* SIDE BAR ON LEFT */
 
 [dir] .sidebar {
@@ -195,6 +203,15 @@ text-decoration: none;
 }
 
 /* PLAYLIST */
+
+[dir] .card-horizontal > .card-horizontal-interior-wrapper:hover, [dir] .card-horizontal > .card-horizontal-interior-wrapper:active {
+	background: rgba(10,10,10, .3);
+}
+
+.tl-explicit .label, .tl-premium .label { color: rgb(255,31,31); }
+[dir] .tl-explicit .label, [dir] .tl-premium .label { border-color: rgb(255,31,31); }
+[dir] .tl-row:hover .tl-explicit .label, [dir] .tl-row:hover .tl-premium .label, [dir] .tl-row.selection-focus .tl-explicit .label, [dir] .tl-row.selection-focus .tl-premium .label { border-color: rgb(255,31,31) !important; } 
+.tl-row:hover .tl-explicit .label, .tl-row:hover .tl-premium .label, .tl-row.selection-focus .tl-explicit .label, .tl-row.selection-focus .tl-premium .label { color: rgb(255,31,31) !important; }
 
 .tl-header th, .tl-cell {
 	background:rgba(20,20,20, .5)!important;
@@ -253,15 +270,23 @@ text-decoration: none;
 	transform: scale(1.0625);
 }
 
+[dir] .button.button-green:not(:disabled):hover:active { 
+	color:rgb(255,255,255);
+	background:rgb(255,31,31);
+}
+
+[dir] .RootlistItem--is-active:after { background-color:rgb(255,31,31); }
+[dir] .SidebarListItem--is-active:after { background-color:rgb(255,31,31); }
+
 [dir] .focus .h-search, [dir] .h-search:focus {
-background: rgba(20, 20, 20, .7)!important;
+	background: rgba(20, 20, 20, .7)!important;
 }
 
 .h-search {
-background: rgba(20, 20, 20, .5)!important;
-border: 0px;
-border-radius: 3px;
-padding-bottom: 0px;
+	background: rgba(20, 20, 20, .5)!important;
+	border: 0px;
+	border-radius: 3px;
+	padding-bottom: 0px;
 }
 
 .CardList__list:hover {
@@ -299,13 +324,14 @@ padding-bottom: 0px;
 	background: rgba(20, 20, 20, 0.7) !important;
 }
 
-::-webkit-scrollbar-button {
-}
 
 ::-webkit-scrollbar-thumb {
 	background: rgba(255,31,31, .7) !important;
 }
 
+::-webkit-scrollbar-button {
+	display:none !important;
+}
 
 /*  MENUS */
 
@@ -338,6 +364,15 @@ padding-bottom: 0px;
 	border-bottom-color: rgb(20,20,20);
 }
 
+[dir] .popover-title { background-color: #8b0000; }
+[dir] #view-modal .playlist-annotate .popover-content { background-color: rgb(20,20,20); }
+[dir] .popover-footer { background-color: rgb(20,20,20); }
+[dir] .form-control { background-color: #848484; color:rgb(255,31,31); border: none; }
+[dir] .form-control:focus { background-color: #848484; color:rgb(255,31,31); }
+#view-modal .playlist-annotate .description-field-wrapper { color: rgb(255,31,31); }
+[dir] #view-modal .playlist-annotate .description-field-char-counter, [dir] #view-modal .playlist-annotate .name-field-char-counter { background-color: rgb(10,10,10); } 
+#view-modal .playlist-annotate .description-field-char-counter, #view-modal .playlist-annotate .name-field-char-counter { color: rgb(255,31,31); }
+[dir] #view-modal .playlist-annotate .error-message-wrapper.has-warning>* { background: rgb(10,10,10); }
 
 /* FRIEND STUFF */
 
@@ -367,3 +402,20 @@ padding-bottom: 0px;
 [dir] .EmptyFriendFeed__placeholder {
 	background:transparent!important;
 }
+
+/* Buttons */
+[dir] .button.button-white { background: rgb(20,20,20); }
+.button.button-white.contextmenu-active, .button.button-white:not(:disabled):hover { color:rgb(255,31,31); }
+.button.button-white { color:rgb(255,31,31); }
+[dir] .button.button-white.contextmenu-active, [dir] .button.button-white:not(:disabled):hover { background: rgb(20,20,20); }
+[dir] .button.button-white:not(:disabled):hover:active { background: rgb(20,20,20); color:rgb(255,31,31); }
+[dir] .station-creator-box .input-container { background-color: #8B0000 }
+[dir] .button.button-gray { background: rgb(20,20,20); }
+.button.button-gray { color:rgb(255,31,31); }
+.button.button-gray:not(:disabled):hover { color:rgb(255,31,31); }
+[dir] .button.button-gray.contextmenu-active, [dir] .button.button-gray:not(:disabled):hover { background: rgb(20,20,20); }
+[dir] button[data-button=add-recommendation] { background: rgb(20,20,20); }
+button[data-button=add-recommendation] { color:rgb(255,31,31); }
+[dir] button[data-button=add-recommendation].contextmenu-active, [dir] button[data-button=add-recommendation]:not(:disabled):hover { background-color: rgb(20,20,20); }
+button[data-button=add-recommendation].contextmenu-active, button[data-button=add-recommendation]:not(:disabled):hover { color:rgb(255,31,31); }
+.button.button-icon-only { color:rgb(255,31,31); }
