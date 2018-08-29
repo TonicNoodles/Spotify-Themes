@@ -203,6 +203,7 @@ text-decoration: none;
 }
 
 /* PLAYLIST */
+[dir] .button.button-with-stroke { background: rbg(255,31,31); }
 
 [dir] .card-horizontal > .card-horizontal-interior-wrapper:hover, [dir] .card-horizontal > .card-horizontal-interior-wrapper:active {
 	background: rgba(10,10,10, .3);
